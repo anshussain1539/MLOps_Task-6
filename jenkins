@@ -19,6 +19,7 @@ pipeline {
         stage('Run Tests') {
             steps {
                 // Run your test cases using pytest
+                echo 'Complete'
                 bat 'python test.py'
             }
         }
